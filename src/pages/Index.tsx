@@ -49,7 +49,7 @@ const Index = () => {
       {/* Projects Section */}
       <section className="mb-20">
         <h2 className="text-3xl font-bold mb-8 text-center">Featured Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
           {[
             {
               title: "Milix",
@@ -64,6 +64,11 @@ const Index = () => {
             {
               title: "VPR2",
               description: "An fast RISC-V environment",
+              link: "#",
+            },
+            {
+              title: "VontrineOS",
+              description: "An Chrom(e)ium power miniSystem",
               link: "#",
             },
           ].map((project, index) => (
