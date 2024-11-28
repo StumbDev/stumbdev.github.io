@@ -49,16 +49,21 @@ const Index = () => {
       {/* Projects Section */}
       <section className="mb-20">
         <h2 className="text-3xl font-bold mb-8 text-center">Featured Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {[
             {
-              title: "Game Development",
-              description: "Created my first 2D platformer game using Python and Pygame",
+              title: "Milix",
+              description: "An Unix Environment that runs on top of DOS",
               link: "#",
             },
             {
-              title: "Web Portfolio",
-              description: "Built this responsive portfolio website using React and Tailwind",
+              title: "Avoria",
+              description: "An powerful runtime manager",
+              link: "#",
+            },
+            {
+              title: "VPR2",
+              description: "An fast RISC-V environment",
               link: "#",
             },
           ].map((project, index) => (
